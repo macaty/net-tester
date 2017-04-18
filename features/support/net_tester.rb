@@ -7,12 +7,12 @@ ENV['GLI_DEBUG'] = 'true'
 module NetTester
   # NetTester physical OpenFlow switch
   class PhysicalTestSwitch < Phut::OpenVswitch
-    name_prefix 'physw_'
+    bridge_prefix = 'physw_'
   end
 
   # Testee physical switch
   class TesteeSwitch < Phut::OpenVswitch
-    name_prefix 'testee_'
+    bridge_prefix = 'testee_'
   end
 end
 
