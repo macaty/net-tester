@@ -3,6 +3,7 @@
 require 'faker'
 require 'net_tester/netns'
 require 'net_tester/test_switch'
+require 'net_tester/test_node'
 require 'net_tester/process'
 require 'phut'
 require 'phut/shell_runner'
