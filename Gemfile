@@ -37,9 +37,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'pio', github: 'trema/pio', branch: 'develop'
-gem 'phut', github: 'trema/phut', branch: 'develop'
-gem 'trema', github: 'trema/trema', branch: 'develop'
+gem 'pio', git: 'https://github.com/trema/pio.git', branch: 'develop'
+gem 'phut', git: 'https://github.com/trema/phut.git', branch: 'develop'
+gem 'trema', git: 'https://github.com/trema/trema.git', branch: 'develop'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
